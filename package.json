@@ -4,12 +4,35 @@
   "author": "Andy Fiedler <andy@andyfiedler.com>",
   "version": "0.0.1",
   "main": "./lib/index.js",
-  "license" : {
+  "license": {
     "type": "MIT",
     "url": "https://raw.github.com/afiedler/node-thinkgear-sockets/master/LICENSE.md"
   },
   "devDependencies": {
     "mocha": "*"
   },
-  "repository": "git://github.com/afiedler/node-thinkgear-sockets.git"
+  "scripts": {
+    "start": "node ./example/app.js"
+  },
+  "repository": "git://github.com/afiedler/node-thinkgear-sockets.git",
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "aws-sign2": "^0.7.0",
+    "babyparse": "^0.4.6",
+    "bl": "^1.2.2",
+    "caseless": "^0.12.0",
+    "express": "^4.16.3",
+    "extend": "^3.0.1",
+    "forever-agent": "^0.6.1",
+    "form-data": "^2.3.2",
+    "hawk": "^7.0.7",
+    "is-typedarray": "^1.0.0",
+    "isstream": "^0.1.2",
+    "json-stringify-safe": "^5.0.1",
+    "jsprim": "^2.0.0",
+    "oauth-sign": "^0.8.2",
+    "stringstream": "0.0.5",
+    "tough-cookie": "^2.3.4",
+    "tunnel-agent": "^0.6.0"
+  }
 }
